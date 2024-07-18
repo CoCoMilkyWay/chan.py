@@ -79,6 +79,8 @@ if __name__ == "__main__":
             plot_para=plot_para,
         )
         plot_driver.figure.show()
+        plot_driver.save2img("./chan.py/chan")
+        
     else:
         CAnimateDriver(
             chan,
